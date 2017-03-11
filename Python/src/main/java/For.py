@@ -16,3 +16,14 @@ for i in range(5, 10):
 # Define the increment size as 2. 
 for i in range(5, 10, 2):
     print(i)
+# The Break Statement
+for i in range(0, 10):
+    if i % 2 == 0:
+        print(i, 'is an even number.')
+        break;
+# The Continue Statement
+for i in range(0, 10):
+    if i % 2 == 0:
+        print(i, 'is an even number.')
+        continue;
+    print(i, 'is an odd number')
